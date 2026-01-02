@@ -5,6 +5,7 @@ import useAuth, { AuthProvider } from "./context/AuthContext";
 import UserDashboardPage from "./Pages/UserDashboardPage";
 import TaskDetails from "./Pages/TaskDetails";
 import TaskEdit from "./Pages/TaskEdit";
+import NotFoud from "./components/NotFoud";
 
 function ProtectedRoute({ children }) {
   const { isAuthenticated, loading } = useAuth();
@@ -46,6 +47,10 @@ export function AppContent() {
               <TaskEdit />
             </ProtectedRoute>
           }
+        />
+        <Route
+        path="/*"
+        element={<NotFoud />}
         />
       </Routes>
     </BrowserRouter>
