@@ -1,5 +1,8 @@
 # Task Management App
 
+Deployed Project Url - 
+[https://pranton-task-management.netlify.app/]("https://pranton-task-management.netlify.app/")
+
 Task -
 Simple Task Management System Requirements:   
 1. Task Creation: Develop a form to allow users to create new tasks. Tasks should have a 
