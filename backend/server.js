@@ -6,7 +6,7 @@ const app = express();
 // regular middlewares
 app.use(express.json());
 app.use(cors({
-    origin: ["pranton-task-management.netlify.app", "http://localhost:5500"],
+    origin: ["https://pranton-task-management.netlify.app", "http://localhost:5173", "http://localhost:5500"],
     credentials: true,
 }))
 
